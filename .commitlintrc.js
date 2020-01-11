@@ -3,7 +3,6 @@ module.exports = {
     rules: {
         'subject-case': [0, 'never'],
         'type-enum': [
-            
             2,
             'always',
             [
