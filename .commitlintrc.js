@@ -5,7 +5,6 @@ module.exports = {
         'type-enum': [
             2,
             'always',
-            
             [
                 'build', // 构建
                 'ci', // ci
