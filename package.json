@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "nyc ./node_modules/.bin/_mocha",
+        "smoke": "cd test/smoke && node index.js",
         "eslint": "eslint ./lib --fix"
     },
     "keywords": [],
@@ -74,10 +75,22 @@
             "lib/webpack.base.js"
         ],
         "watermarks": {
-            "lines": [40, 80],
-            "functions": [40, 80],
-            "branches": [40, 80],
-            "statements": [40, 80]
+            "lines": [
+                40,
+                80
+            ],
+            "functions": [
+                40,
+                80
+            ],
+            "branches": [
+                40,
+                80
+            ],
+            "statements": [
+                40,
+                80
+            ]
         },
         "check-coverage": false
     }
